@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Recursos Especiais - MARK e JAVASCRIPT da DIO.me</title>
+    </head>
+    <body>
+        <input type="text" name="busca" id="busca" /><br />
+        <p id="descricao">
+            Os nossos cursos e programas de formação são criados em conjunto com
+            as empresas mais inovadoras do mundo , aplicando uma metodologia
+            para que você domine as tecnologias utilizadas no mercado e támbem
+            mergulhe nas novas e mais atuais tecnologias que impactarão o futuro
+            dos negócios digitais.
+        </p>
+
+        <script>
+            var searchField = document.getElementById("busca");
+            var descricaoObject = document.getElementById("descricao");
+            var textTosearch = descricaoObject.innerHTML;
+
+            function realizaBusca(busca) {
+                const regex = new RegExp(
+                    `(${busca})(?!(.(?!<mark>))*</mark>)+`,
+                    "ig"
+                );
+                const ocurrences = textTosearch.match(regex);
+                descricaoObject.innerHTML = textTosearch.replace(
+                    regex,
+                    `<mark>${busca}</mark>`
+                );
+            }
+
+            searchField.addEventListener("keyup", (e) =>
+                realizaBusca(e.target.value)
+            );
+        </script>
+    </body>
+</html>

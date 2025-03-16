@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedora Linux | Wikipédia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/icons/wikipedia.ico" type="image/x-icon">
+</head>
+<body style="overflow-x: hidden;">
+
+    <!-- H E A D E R -->
+
+    <header class="header">   
+        <span class="logo">
+            <figure>
+                <img src="assets/logos/wikilogo.png" width="100px" alt="Logo Wikipédia, a enciclopédia livre"/>
+                <figcaption hidden>Logo Wikipédia, a enciclopédia livre</figcaption>
+            </figure> 
+        </span>
+        <span class="searchbar">
+            <form>
+                <img src="./assets/icons/searchicon.svg" alt="Barra de pesquisa" width="18px" style="margin: 10px;">
+                <label hidden    for="searchbar">Barra de pesquisa</label><input type="text" name="searchbar" id="searchbar" placeholder="Pesquisar na Wikipedia">
+                <button id="bsearch" type="submit">Buscar</button>
+            </form>
+        </span>
+    </header>
+
+    <div class="bar"></div>
+
+    <!-- N A V -->
+
+    <div class="content">
+        <nav class="sidebar">
+            <h3><a style="color: black;" href="#start">Início</a></h3>
+                <ul>
+                    <li><a href="#menu1">História</a></li>
+
+                    <li><a href="#menu2">Projeto Fedora</a>
+                        <ol>
+                            <li><a href="#menu3">- Marca Fedora e relação com a Red Hat</a></li>
+                            <li><a href="#menu4">- Financiamento</a></li>
+                            <li><a href="#menu5">- Conferências</a></li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <a href="#menu6">Missão e Desenvolvimento</a>
+                        <ol>
+                            <li><a href="#menu7">- Missão</a></li>
+                            <li><a href="#menu8">- Desenvolvimento</a></li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <a href="#menu9">Características</a>
+                        <ol>
+                            <li><a href="#menu10">-Gerenciamento de pacotes</a></li>
+                            <li><a href="#menu11">-Software</a></li>
+                            <li><a href="#menu12">-Repositório de terceiros</a></li>
+                            <li><a href="#menu13">-Segurança</a></li>
+                            <li><a href="#menu14">-Arquiteturas</a></li>
+                        </ol>
+                    </li>
+
+                    <li><a href="#menu15">Versões</a>
+                        <ol>
+                            <li><a href="#menu16">-Fedora Workstation</a></li>
+                            <li><a href="#menu17">-Fedora Server</a></li>
+                            <li><a href="#menu18">-Fedora Atomic</a></li>
+                        </ol>
+                    </li>
+
+                    <li><a href="#menu19">Galeria</a></li>
+
+                </ul>
+        </nav>
+
+        <!-- M A I N -->
+
+        <main class="main">
+            <section>
+                <h1 id="start">Fedora Linux</h1>
+                <hr>
+                <p>Artigo</p>
+                <hr>
+                <sup>Origem: Wikipédia, a enciclopédia livre.</sup>
+                
+                <p><strong>Fedora</strong> <i>(conhecido como <b>Fedora Core</b> antes da versão 7)</i> é um sistema operacional<sup>(pt-BR)</sup> ou sistema operativo<sup>(pt-PT)</sup> Linux. O sistema operacional Fedora Linux é software livre e de código aberto, e os programas disponíveis dentro de seu repositório de programas também são programas livres que aderem a uma licença livre.</p>
+                <p>O Fedora Linux existe desde 2003, e seu desenvolvimento e suporte é oferecido pela comunidade do Projeto Fedora. Após ter descontinuado o sistema operacional Red Hat Linux, a Red Hat patrocina o desenvolvimento do sistema operacional Fedora, envolvendo-se no desenvolvimento de vários programas disponíveis para o Fedora, que são eventualmente adicionados para o repositório do Red Hat Enterprise Linux, que é a distribuição Linux atual da empresa.</p>
+                <p>Desde a versão Fedora 21, há três edições disponíveis: Fedora Workstation, focado para computadores pessoais, Fedora Server para servidores, e o Fedora Cloud para servidores com foco em computação em nuvem. Também existem outras edições, chamadas de "spins", com ambientes gráficos diferentes do ambiente gráfico GNOME que acompanha o sistema operacional. Ambientes gráficos como o KDE, Xfce, LXDE, entre outros, estão disponíveis. Também existem edições para usos específicos, como o uso para computação científica, astronomia, robótica, segurança e para jogos. Novas versões do Fedora são lançadas aproximadamente a cada 6 meses.</p>
+            </section><br>
+
+            <section>
+                <h2 id="menu1">História</h2>
+                <hr>
+
+                <p>O nome Fedora vem de um projeto voluntário para a distribuição Red Hat Linux, que era um repositório adicional de software para a distribuição, utilizando o logo de um chapéu fedora. Organizado pelo Projeto Fedora, fundado por Warren Togami em 2002 como um projeto de graduação na Universidade do Havaí, o projeto tinha como objetivo de fornecer um confiável e bem testado repositório de softwares de terceiros para que softwares não produzidos pela Red Hat fossem mais fáceis de encontrar, desenvolver e usar. Diferente da distribuição comercial, o repositório era mantido por uma comunidade global de voluntários. O Fedora Linux acabou por ser absorvido pelo Projeto Fedora, levando consigo esta abordagem colaborativa.</p>
+                <p>O Fedora Linux foi lançado em 06 de Novembro de 2003 quando o Red Hat Linux foi descontinuado. O Red Hat Enterprise Linux (RHEL) seria a única distribuição Linux oficialmente suportada pela Red Hat, enquanto o Fedora seria uma distribuição da comunidade. O Red Hat Enterprise Linux ramifica seus lançamentos das versões do Fedora.</p>
+                <p>Antes do Fedora 7, o Fedora era chamado Fedora Core após o nome de um dos dois principais repositórios de software - Core e Extras. O Fedora Core continha todos os pacotes básicos que eram requeridos pelo sistema operacional, assim como outros pacotes que eram distribuídos junto com os CD/DVDs de instalação, e eram mantidos apenas pelos desenvolvedores da Red Hat. O Fedora Extras, o repositório secundário que havia sido incluído desde o Fedora Core 3, era mantido pela comunidade e não distribuído junto com os CD/DVDs de instalação. Após o lançamento do Fedora 7, a distinção entre o Fedora Core e o Fedora Extras foi eliminada.</p>
+                <p>Desde o lançamento do Fedora 21, como um esforço para modularizar a distribuição do Fedora e tornar o desenvolvimento mais ágil, três versões diferentes estão disponíveis: Workstation, focada no computador pessoal, Server e Atomic para servidores, Atomic sendo a versão para computação em nuvem.</p>
+            </section><br>
+
+            <section>
+                <h2 id="menu2">Projeto Fedora</h2>
+                <hr>
+
+                <p>O Fedora representa um conjunto de projetos patrocinados pela Red Hat e direcionados pelo Projeto Fedora. Estes projetos são desenvolvidos por uma comunidade internacional de pessoas focadas em prover e manter as melhores iniciativas através dos padrões livres do software de fonte aberto.</p>
+                <p>A Distribuição GNU/Linux Fedora, projeto central do Projeto Fedora, é um sistema operacional baseado no Linux, sempre gratuito para ser usado, modificado e distribuído por qualquer pessoa.</p>
+                <p>As versões testes do Fedora foram iniciadas a partir de Julho de 2003 e em Março de 2004 foi lançado a primeira versão estável do Fedora Linux.</p>
+                <p>O Fedora é um sistema que pode ser utilizado tanto em desktop quanto em servidor sendo derivado do Red Hat Linux 9.</p>
+                <p>Suas principais caracteristicas são:</p>
+                <ul>
+                    <li><em>- Fedora é completamente gratuito e consiste em software livre ou aberto;</em></li>
+                    <li><em>- Fácil utilização, mesmo para usuários inexperientes em GNU/Linux;</em></li>
+                    <li><em>- Instalador Anaconda</em></li>
+                    <li><em>- Gestor de desktop GNOME , além das edições Spins, com gestor de desktop diferentes como o KDE, xfce, lxde, etc;</em></li>
+                    <li><em>- Inclui diversos Drivers de periféricos atualizados, facilitando a detecção de hardwares mais novos;</em></li>
+                    <li><em>- Possui diversas interfaces de configuração (Rede, Video, Som, Segurança, Teclado, Samba, Serviços e etc) facilitando a administração e configuração do sistema;</em></li>
+                    <li><em>- Sistema para gerenciamento de pacotes DNF;</em></li>
+                    <li><em>- Disponível ISO para gravação em formato de live CD's;</em></li>
+                    <li><em>- Disponível nas arquiteturas x86, x86_64, PPC e ARM;</em></li>
+                    <li><em>- Traduzido e Documentado em Português pelo Projeto Fedora Brasil.</em></li>
+                </ul>
+
+                <h3 id="menu3">Marca Fedora e relação com a Red Hat</h3>
+                <p>Fedora é uma marca comercial da Red Hat, Inc. O pedido de status de marca registrada da Red Hat para o nome "Fedora" foi contestado pela Cornell University e pela University of Virginia Library, criadores do software de gerenciamento de repositório digital Fedora Commons. A questão foi resolvida e as partes estabeleceram um acordo de coexistência que declarava que o projeto Cornell-UVA poderia usar o nome quando claramente associado a software de código aberto para sistemas de repositório de objetos digitais e que a Red Hat poderia usar o nome quando ele estivesse claramente associado a sistemas operacionais de computadores de código aberto.</p>
+                <p>Existe um boato sobre o Fedora ser uma distribuição beta para o Red Hat Enterprise Linux (RHEL), fato não verdadeiro. O que acontece na verdade é que a Red Hat o usa como base para o RHEL, pré-selecionando ferramentas e recursos que serão mais tarde incorporados ao RHEL. Existem versões para testes do RHEL no site da Red Hat. Fedora e Red Hat Enterprise Linux são distribuições distintas.</p>
+
+                <h3 id="menu4">Financiamento</h3>
+                <p>O Projeto Fedora é financiado principalmente pela Red Hat . A Red Hat quer obter a base mais completa e sólida possível para seu produto comercial Red Hat Enterprise Linux (RHEL). O patrocínio da Red Hat, além de fornecer financiamento, é principalmente a participação de muitos funcionários da Red Hat na comunidade Fedora . Além disso, a Red Hat fornece sua infraestrutura, como por exemplo, servidores ou salas de conferência estão disponíveis gratuitamente para o Projeto Fedora.</p>
+                <em>Além da Red Hat e particulares individuais, as empresas conhecidas como patrocinadores do Fedora são: Arrival Telecom Inc., BodHOST, Colocation America Inc., Dell Inc., Ibiblio, InterNetX GmbH, OSU Open Source Lab, proIO GmbH, ServerBeach, Technomonk Industries, a Telia Company AB e a tummy.com ltd. Algumas dessas empresas vendem hardware com o software Fedora pré-carregado ou são usuários de distribuição.</em>
+
+                <h3 id="menu5">Conferências</h3>
+                <p>O Projeto Fedora realiza várias reuniões anuais, denominadas FUDCon , onde os usuários e desenvolvedores do Fedora se reúnem por vários dias em qualquer parte do mundo. Além de palestras, painéis, reuniões e eventos sociais, os FUDCons organizam as chamadas feiras de hack(hackathon), nas quais um grupo de desenvolvedores abordam e programam uma questão específica em conjunto.</p>
+            </section><br>
+
+            <section>
+                <h2 id="menu6">Missão e desenvolvimento</h2>
+                <hr>
+
+                <h3 id="menu7">Missão</h3>
+                <p>A missão do projeto é:</p>
+                <article id="art">
+                    <em>O Fedora cria uma plataforma inovadora para hardware, nuvens e containers que permite aos desenvolvedores de software e membros da comunidade criar soluções personalizadas para seus usuários.</em>
+                </article>
+                <p>Os valores Features e First se referem a motivação a inovar, que é feita da forma mais transparente, colaborativa(Friends) e com software livre e de código aberto(Freedom) possíveis.</p>
+            
+                <h3 id="menu8">Desenvolvimento</h3>
+                <p>O desenvolvimento do sistema operacional e dos programas de suporte é liderado pelo Projeto Fedora, que é composto por uma comunidade de desenvolvedores e voluntários, além de funcionários da Red Hat. O Conselho é a liderança da comunidade de alto nível e o órgão de governança. Outros órgãos incluem o: <em>Comitê Gestor de Engenharia do Fedora(Fedora Engineering Steering Committee), responsável pelas decisões técnicas por trás do desenvolvimento do Fedora, e o Fedora Mindshare Committee que coordena atividades de divulgação e atividades não técnicas, incluindo representação do Fedora Worldwide, por exemplo: Programa Embaixadores(Ambassadors Program), e equipes CommOps, Marketing, Design e Websites.</em></p>
+            </section><br>
+
+            <section>
+                <h2 id="menu9">Características</h2>
+                <hr>
+
+                <p>O Fedora tem a reputação de focar em inovação, integrar novas tecnologias desde o início e trabalhar em estreita colaboração com as comunidades Linux upstream.</p>
+                <p>Ao contrário de outras distribuições Linux, não há suporte de longo prazo. O Fedora tem um ciclo de vida relativamente curto: a versão X é suportada apenas até 1 mês após a versão X + 2 ser lançada e com aproximadamente 6 meses entre a maioria das versões, significando que uma versão do Fedora geralmente é suportada por pelo menos 13 meses, possivelmente mais. Usuários do Fedora podem atualizar de versão para versão sem precisar reinstalar.</p>
+                <p>O ambiente de desktop padrão no Fedora é o GNOME e a interface de usuário padrão é o GNOME Shell. Outros ambientes de desktop, incluindo o KDE Plasma, o Xfce, o LXDE, o MATE e o Cinnamon, estão disponíveis e podem ser instalados. Desde o lançamento do Fedora 25, o sistema operacional usa como padrão o protocolo do servidor de exibição Wayland, que substituiu o X Window System.</p>
+            
+                <h3 id="menu10">Gerenciamento de pacotes</h3>
+                <p>O Fedora usa o sistema de gerenciamento de pacotes RPM, usando o DNF como uma ferramenta para gerenciar os pacotes RPM. O DNF usa libsolv, um resolvedor de dependência externo. O Flatpak também é suportado por padrão, e o suporte para os snaps do Ubuntu também pode ser adicionado. O Fedora usa o Delta RPM ao atualizar os pacotes instalados para fornecer atualização Delta. Um Delta RPM contém a diferença entre uma versão antiga e uma nova de um pacote. Isso significa que apenas as alterações entre o pacote instalado e o novo são baixadas, reduzindo o tráfego de rede e o consumo de largura de banda.</p>
+
+                <h3 id="menu11">Software</h3>
+                <p>O Fedora vem com uma ampla gama de softwares instalados, como o LibreOffice e o Firefox. Software adicional está disponível nos repositórios de software e pode ser instalado usando o gerenciador de pacotes DNF ou o GNOME Software.</p>
+
+                <h3 id="menu12">Repositório</h3>
+                <p>Repositórios extras podem ser adicionados ao sistema, para que softwares não disponíveis no Fedora possam ser instalados facilmente. O software que não está disponível através dos repositórios oficiais do Fedora, seja porque não atende à definição de software livre do Fedora ou porque sua distribuição pode violar as leis dos EUA, pode ser instalado usando repositórios de terceiros.</p>
+                <p>Os repositórios populares de terceiros incluem repositórios gratuitos e não livres do RPM Fusion e Third Party Software Repositories, que habilitam os usuários a instalar softwares populares como drivers NVIDIA e Steam. O Fedora também fornece aos usuários avançados um sistema de compilação fácil de usar para criar seus próprios repositórios em formato RPM chamado Copr.</p>
+
+                <h3 id="menu13">Segurança</h3>
+                <p>O Fedora usa o Security-Enhanced Linux por padrão, que implementa uma variedade de políticas de segurança, incluindo controles de acesso obrigatórios, que o Fedora adotou desde o início. O Fedora fornece hardening wrapper e fortalece todos os seus pacotes usando recursos do compilador, como o PIE (position-independent executable).</p>
+
+                <h3 id="menu14">Arquitetura</h3>
+                <p>O x86-64 e o ARM-hfp são as principais arquiteturas suportadas pelo Fedora. Pidora e FedBerry eram distribuições especializadas do Fedora para o Raspberry Pi, agora o Fedora ARM suporta o Rasperry Pi, bem como outros dispositivos ARM e SBC. A partir da versão 26, o Fedora também suporta ARM AArch64, IBM Power64, IBM Power64le, mipselel, mipsel, IBM Z ("s390x"), MIPS-64el, MIPSel, RISC-V e Intel i686 como arquiteturas secundárias (sendo i686 primário até a liberação 25).</p>
+
+            </section><br>
+
+            <section>
+                <h2 id="menu15">Versões</h2>
+                <hr>
+
+                <p>Possui três versões principais: Fedora Workstation, Fedora Server e Fedora Atomic.</p>
+
+                <h3 id="menu16">Fedora Workstation</h3>
+                <p>Tem como alvo usuários que desejam um sistema operacional confiável, amigável e poderoso para o seu laptop ou computador de mesa. Ele vem com o GNOME por padrão, mas outros desktops podem ser instalados ou podem ser instalados diretamente como Spins.</p>
+
+                <h3 id="menu17">Fedora Server</h3>
+                <p>Destinado a servidores, inclui as mais recentes tecnologias de data center. Esta edição não vem com um ambiente de desktop, mas é possível instalá-lo. O Fedora 28 Server Edition inclui o Fedora Modularity, adicionando suporte para fluxos de atualização alternativos para softwares populares como o interpretador de JavaScript Node.js e a linguagem de programação Go.</p>
+
+                <h3 id="menu18">Fedora Atomic</h3>
+                <p>Fornece uma imagem mínima do Fedora, que inclui apenas o essencial. Destina-se a implantação na computação em nuvem. Ele fornece imagens do Fedora Atomic Host que são imagens mínimas otimizadas para uso em contêineres.</p>
+
+            </section><br>
+
+            <section>
+                <h2 id="menu19">Galeria</h2>
+                <hr>
+
+                <figure>
+                    <img src="./assets/images/fedoraworkstation.png" alt="Logo do Fedora Workstation">
+                    <figcaption hidden>Logo do Fedora Workstation</figcaption>
+                    <img src="./assets/images/fedorasilverblue.png" alt="Logo do Fedora Silverblue">
+                    <figcaption hidden>Logo do Fedora Silverblue</figcaption>
+                    <img src="./assets/images/fedoraserver.png" alt="Logo do Fedora Server">
+                    <figcaption hidden>Logo do Fedora</figcaption>
+                    <img src="./assets/images/fedoraiot.png" alt="Logo do Fedora IOT">
+                    <figcaption hidden>Logo do Fedora IOT</figcaption>
+                    <img src="./assets/images/fedoracloud.png" alt="Logo do Fedora Cloud">
+                    <figcaption hidden>Logo do Fedora Cloud</figcaption>
+                    <img src="./assets/images/fedoracoreos.png" alt="Logo do Fedora Coreos">
+                    <figcaption hidden>Logo do Fedora Coreos</figcaption>
+                </figure>
+                <br>
+                <iframe id="frame" width="560" height="315" src="https://www.youtube.com/embed/fFXbgTKNenM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section><br>
+
+        </main>
+
+        <aside id="aside" class="anchors" style="border: 5px; padding: 1px; margin: 1px;">
+            <h3>Úteis</h3>
+            <figure>
+                <img src="./assets/images/fedoralogo.png" alt="Logo do Fedora" width="200px"><br>
+                <figcaption hidden>Logo do Fedora</figcaption>
+                <br>
+                <img src="./assets/images/fedora.png" alt="Área de trabalho do Fedora" width="350px">
+                <figcaption id="caption"><sup>Fedora 37 Desktop com GNOME 43</sup></figcaption>
+            </figure><br>
+            
+            <br>
+
+            <table title="Informações adicionais" id="table" width="350px">
+                <thead>
+                    <tr>
+                        <th colspan="2" id="stb">Informações adicionais</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="stb">Desenvolvedor</td>
+                        <td>Fedora Project (Patrocínio da Red Hat)</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Modo de desenvolvimento</td>
+                        <td>Open Source</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Lançado em</td>
+                        <td>5 de novembro de 2003</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Versão estável</td>
+                        <td>37 / 15 de novembro de 2022</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Língua natural</td>
+                        <td>Multilíngue</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Mercado-alvo</td>
+                        <td>Computadores pessoais e servidores</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Família</td>
+                        <td>GNU/Linux</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Núcleo</td>
+                        <td>Linux</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Método de atualização</td>
+                        <td>DNF</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Gerenciamento de pacotes</td>
+                        <td>DNF</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Interface padrão</td>
+                        <td>GNOME</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Licença</td>
+                        <td>GNU GPL / Outras</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Estado do desenvolvimento</td>
+                        <td>Corrente</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Website</td>
+                        <td><a href="getfedora.org">getfedora.org</a></td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Posição no Distrowatch</td>
+                        <td>6 Lugar</td>
+                    </tr>
+                    <tr>
+                        <td id="stb">Origem comum</td>
+                        <td>EUA</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th id="stb" colspan="2"><br><p hidden>endtable</p></th>
+                </tfoot>  
+            </table>
+            <br>
+
+            <h3>Relacionados</h3>
+            <br>
+            <figure>
+                <img src="./assets/images/redhatlogo.png" width="250px" alt="Red Hat Enterprise Linux">
+                <figcaption hidden>Logo Red Hat Enterprise Linux, relacionado ao conteúdo do artigo.</figcaption>
+            </figure>
+        </aside>
+    </div>
+
+    <!-- F O O T E R -->
+
+    <footer id="footer" class="footer" style="font-size: 12px;">
+        <p>Esta página foi editada pela última vez às 08h54min de 18 de novembro de 2022.</p>
+        <p>Este texto é disponibilizado nos termos da licença <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt" target="_blank">Atribuição-CompartilhaIgual 3.0 Não Adaptada (CC BY-SA 3.0) da Creative Commons</a>; pode estar sujeito a condições adicionais. Para mais detalhes, consulte as <a href="https://foundation.wikimedia.org/wiki/Terms_of_Use/pt-br" target="_blank">condições de utilização</a>.</p><br>
+
+        <p>
+            <ul id="footer-links">
+                <li id="footer-places-privacy"><a target="_blank" href="https://meta.wikimedia.org/wiki/Privacy_policy/pt-br">Política de privacidade</a></li>
+                <li id="footer-places-about"><a target="_blank" href="/wiki/Wikip%C3%A9dia:Sobre">Sobre a Wikipédia</a></li>
+                <li id="footer-places-disclaimers"><a target="_blank" href="/wiki/Wikip%C3%A9dia:Aviso_geral">Avisos gerais</a></li>
+                <li id="footer-places-mobileview"><a target="_blank" href="//pt.m.wikipedia.org/w/index.php?title=Fedora_Linux&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versão móvel</a></li>
+                <li id="footer-places-developers"><a target="_blank" href="https://developer.wikimedia.org">Programadores</a></li>
+                <li id="footer-places-statslink"><a target="_blank" href="https://stats.wikimedia.org/#/pt.wikipedia.org">Estatísticas</a></li>
+                <li id="footer-places-cookiestatement"><a target="_blank" href="https://foundation.wikimedia.org/wiki/Cookie_statement">Declaração sobre ''cookies''</a></li>
+               <li style="display: none;"><a target="_blank" href="#">Editar configurações da antevisão</a></li>
+            </ul>
+        </p>
+    </footer>
+</body>
+</html>
